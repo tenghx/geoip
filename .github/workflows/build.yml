@@ -32,7 +32,14 @@ jobs:
       - name: Build geoip file
         run: |
           go run github.com/v2fly/geoip@latest -c config.json
-  
+          
+      - name: Generate sha256 checksum for dat files
+        run: |
+          cd ./output/dat || exit 1
+          for name in $(ls *.dat); do
+            sha256sum ${name} > ./${name}.sha256sum
+          done
+
       - name: Git push assets to "release" branch
         run: |
           cd publish || exit 1
