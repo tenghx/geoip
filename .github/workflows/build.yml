@@ -1,0 +1,50 @@
+name: Build geoip
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "00 03 * * *"
+  push:
+    branches:
+      - main
+    paths-ignore: 
+      - "**/README.md" 
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+  
+    steps:
+      - name: Setup Go 1.x.y
+        uses: actions/setup-go@v3
+        with:
+          go-version: ^1.18
+          
+      - name: Set variables
+        run: |
+          echo "RELEASE_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
+        shell: bash
+          
+      - name: Checkout codebase
+        uses: actions/checkout@v3
+
+      - name: Build geoip file
+        run: |
+          go run github.com/v2fly/geoip@latest -c config.json
+  
+      - name: Git push assets to "release" branch
+        run: |
+          cd publish || exit 1
+          git init
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "68494740+tenghx@users.noreply.github.com"
+          git checkout -b release
+          git add --all
+          git commit -m "${{ env.RELEASE_NAME }}"
+          git remote add geoip "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f geoip release
+
+      - name: Delete publish directory
+        run: |
+          rm -rf  publish
