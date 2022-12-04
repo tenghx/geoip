@@ -4,8 +4,8 @@ Custom geoip files for routing purpose in V2Ray. only `cn`, `hk`, `mo`, `private
 
 # Download links
 
-- geoip.dat: [https://raw.githubusercontent.com/tenghx/adh-upstream/release/geoip.dat](https://raw.githubusercontent.com/tenghx/adh-upstream/release/geoip.dat)
-- geoip.dat.sha256sum: [https://raw.githubusercontent.com/tenghx/adh-upstream/release/geoip.dat.sha256sum](https://raw.githubusercontent.com/tenghx/adh-upstream/release/geoip.dat.sha256sum)
+- geoip.dat: [https://raw.githubusercontent.com/tenghx/geoip/release/geoip.dat](https://raw.githubusercontent.com/tenghx/geoip/release/geoip.dat)
+- geoip.dat.sha256sum: [https://raw.githubusercontent.com/tenghx/geoip/release/geoip.dat.sha256sum](https://raw.githubusercontent.com/tenghx/geoip/release/geoip.dat.sha256sum)
 
 # Credits
 
