@@ -1,6 +1,6 @@
 # GeoIP
 
-Custom geoip files for routing purpose in V2Ray. only `cn`, `hk`, `mo`, `private`.
+Custom geoip files for routing purpose in V2Ray.
 
 # Download links
 
