@@ -11,6 +11,7 @@ Custom geoip files for routing purpose in V2Ray.
 
 - [github.com/v2fly/geoip](https://github.com/v2fly/geoip)
 - [github.com/gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip)
+- [github.com/Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)
 
 # License
 
