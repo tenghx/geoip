@@ -1,6 +1,6 @@
 # GeoIP
 
-Custom geoip files for routing purpose in V2Ray.
+Custom geoip file for routing purpose in V2Ray.
 
 # Download links
 
