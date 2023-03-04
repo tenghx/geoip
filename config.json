@@ -52,24 +52,6 @@
             }
         },
         {
-            "type": "text",
-            "action": "add",
-            "args": {
-                "name": "cloudflare-cdn",
-                "uri": "https://www.cloudflare.com/ips-v4",
-                "onlyIPType": "ipv4"
-            }
-        },
-        {
-            "type": "text",
-            "action": "add",
-            "args": {
-                "name": "cloudflare-cdn",
-                "uri": "https://www.cloudflare.com/ips-v6",
-                "onlyIPType": "ipv6"
-            }
-        },
-        {
             "type": "private",
             "action": "add"
         }
