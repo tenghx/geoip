@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "00 16 * * *"
-  push:
-    branches:
-      - master
-    paths-ignore: 
-      - "**/README.md" 
+  #push:
+  #  branches:
+  #    - master
+  #  paths-ignore: 
+  #    - "**/README.md" 
 
 jobs:
   build:
