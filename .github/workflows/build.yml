@@ -58,7 +58,8 @@ jobs:
           cd publish || exit 1
           gh release list | awk -F '\t' '{print $3}' | while read -r line; do gh release delete -y "$line" --cleanup-tag; done
           gh release create ${{ env.TAG_NAME }} --latest --title ${{ env.RELEASE_NAME }} ./*.dat ./*.dat.sha256sum
-          gh release delete-asset -y ${{ env.TAG_NAME }} ${{ env.TAG_NAME }}.zip ${{ env.TAG_NAME }}.tar.gz
+          gh release delete-asset -y ${{ env.TAG_NAME }} ${{ env.TAG_NAME }}.zip
+          gh release delete-asset -y ${{ env.TAG_NAME }} ${{ env.TAG_NAME }}.tar.gz
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
