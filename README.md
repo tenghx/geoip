@@ -4,8 +4,8 @@ Custom geoip file for routing purpose in V2Ray.
 
 # Download links
 
-- geoip.dat: [https://raw.githubusercontent.com/tenghx/tenghx.github.io/gh-pages/release/geoip.dat](https://raw.githubusercontent.com/tenghx/tenghx.github.io/gh-pages/release/geoip.dat)
-- geoip.dat.sha256sum: [https://raw.githubusercontent.com/tenghx/tenghx.github.io/gh-pages/release/geoip.dat.sha256sum](https://raw.githubusercontent.com/tenghx/tenghx.github.io/gh-pages/release/geoip.dat.sha256sum)
+- geoip.dat: [https://github.com/tenghx/geoip/releases/latest/download/geoip.dat](https://github.com/tenghx/geoip/releases/latest/download/geoip.dat)
+- geoip.dat.sha256sum: [https://github.com/tenghx/geoip/releases/latest/download/geoip.dat.sha256sum](https://github.com/tenghx/geoip/releases/latest/download/geoip.dat.sha256sum)
 
 # Credits
 
