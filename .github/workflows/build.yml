@@ -16,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
   
     steps:
-      - name: Setup Go 1.x.y
+      - name: Setup Go
         uses: actions/setup-go@v4
         with:
-          go-version: ^1.18
+          go-version: 'stable'
           
       - name: Set variables
         run: |
