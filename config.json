@@ -97,7 +97,7 @@
             }
         },
         {
-            "type"": "text",
+            "type": "text",
             "action": "add",
             "args": {
                 "name": "cn6",
