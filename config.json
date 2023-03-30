@@ -50,6 +50,10 @@
                 "name": "mo",
                 "uri": "https://raw.githubusercontent.com/v2fly/geoip/release/text/mo.txt"
             }
+        },
+        {
+            "type": "private",
+            "action": "add"
         }
     ],
     "output": [
