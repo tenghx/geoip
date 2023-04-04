@@ -15,4 +15,4 @@ Custom geoip file for routing purpose in V2Ray.
 
 ## License
 
-[MIT](https://github.com/tenghx/geoip/blob/master/LICENSE)
+[MIT](https://github.com/tenghx/geoip/blob/main/LICENSE)
