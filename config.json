@@ -133,11 +133,11 @@
             }
         },
         {
-            "type": "txt",
+            "type": "text",
             "action": "add",
             "args": {
                 "name": "private",
-                "uri": "https://raw.githubusercontent.com/v2fly/geoip/release/text/private.txt"
+                "uri": "https://raw.githubusercontent.com/tenghx/geoip/main/private.txt"
             }
         }
     ],
@@ -147,13 +147,6 @@
             "action": "output",
             "args": {
                 "outputName": "geoip.dat",
-                "outputDir": "./publish"
-            }
-        },
-        {
-            "type": "text",
-            "action": "output",
-            "args": {
                 "outputDir": "./publish"
             }
         }
