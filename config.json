@@ -133,12 +133,8 @@
             }
         },
         {
-            "type": "text",
-            "action": "add",
-            "args": {
-                "name": "private",
-                "uri": "./reserved.txt"
-            }
+            "type": "private",
+            "action": "add"
         }
     ],
     "output": [
