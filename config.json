@@ -134,10 +134,6 @@
         },
         {
             "type": "private",
-            "action": "add"
-        },
-        {
-            "type": "text",
             "action": "add",
             "args": {
                 "name": "private",
