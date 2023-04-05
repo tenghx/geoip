@@ -133,7 +133,7 @@
             }
         },
         {
-            "type": "private",
+            "type": "txt",
             "action": "add",
             "args": {
                 "name": "private",
