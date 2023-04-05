@@ -19,7 +19,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
-          go-version: 'stable'
+          go-version: '1.19' #'stable'
           
       - name: Set variables
         run: |
@@ -32,7 +32,7 @@ jobs:
 
       - name: Build geoip file
         run: |
-          go run github.com/Loyalsoldier/geoip@latest -c config.json
+          go run github.com/v2fly/geoip@latest -c config.json
           
       - name: Generate sha256 checksum for dat files
         run: |
