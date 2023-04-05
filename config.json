@@ -139,7 +139,7 @@
                 "name": "private",
                 "uri": "./reserved.txt"
             }
-        },
+        }
     ],
     "output": [
         {
