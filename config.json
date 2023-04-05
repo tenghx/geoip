@@ -137,7 +137,7 @@
             "action": "add",
             "args": {
                 "name": "private",
-                "uri": "https://raw.githubusercontent.com/v2fly/geoip/release/text/private.txt"
+                "uri": "./private.txt"
             }
         }
     ],
