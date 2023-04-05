@@ -137,7 +137,7 @@
             "action": "add",
             "args": {
                 "name": "private",
-                "uri": "private.txt"
+                "uri": "./private.txt"
             }
         }
     ],
