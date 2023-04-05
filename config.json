@@ -137,7 +137,7 @@
             "action": "add",
             "args": {
                 "name": "private",
-                "uri": "./reserved.txt"
+                "uri": "https://raw.githubusercontent.com/tenghx/geoip/main/reserved.txt"
             }
         }
     ],
