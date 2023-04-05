@@ -133,12 +133,8 @@
             }
         },
         {
-            "type": "text",
-            "action": "add",
-            "args": {
-                "name": "reserved",
-                "uri": "https://raw.githubusercontent.com/tenghx/geoip/main/reserved.txt"
-            }
+            "type": "private",
+            "action": "add"
         }
     ],
     "output": [
