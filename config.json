@@ -149,6 +149,10 @@
                 "outputName": "geoip.dat",
                 "outputDir": "./publish"
             }
+        },
+        {
+            "type": "text",
+            "action": "output"
         }
     ]
 }
