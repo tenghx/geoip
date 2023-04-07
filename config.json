@@ -139,6 +139,24 @@
                 "name": "private",
                 "uri": "./private.txt"
             }
+        },
+        {
+            "type": "text",
+            "action": "add",
+            "args": {
+                "name": "private4",
+                "uri": "./private.txt",
+                "onlyIPType": "ipv4"
+            }
+        },
+        {
+            "type": "text",
+            "action": "add",
+            "args": {
+                "name": "private6",
+                "uri": "./private.txt",
+                "onlyIPType": "ipv6"
+            }
         }
     ],
     "output": [
