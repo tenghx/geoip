@@ -11,6 +11,7 @@ Custom geoip file for routing purpose in V2Ray.
 
 - [github.com/v2fly/geoip](https://github.com/v2fly/geoip)
 - [github.com/gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip)
+- [github.com/misakaio/chnroutes2](https://github.com/misakaio/chnroutes2)
 - [en.wikipedia.org/wiki/Reserved_IP_addresses](https://en.wikipedia.org/wiki/Reserved_IP_addresses)
 
 ## License
