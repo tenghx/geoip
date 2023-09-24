@@ -32,7 +32,9 @@ jobs:
 
       - name: Build geoip file
         run: |
+          curl https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt | sed '/#/d' > chnroutes2.txt
           go run github.com/v2fly/geoip@latest -c config.json
+          rm ./chnroutes2.txt
           
       - name: Generate sha256 checksum for dat files
         run: |

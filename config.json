@@ -22,7 +22,7 @@
             "action": "add",
             "args": {
                 "name": "cn",
-                "uri": "https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt",
+                "uri": "./chnroutes2.txt",
                 "onlyIPType": "ipv4"
             }
         },
