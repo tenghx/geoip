@@ -32,7 +32,7 @@ jobs:
 
       - name: Build geoip file
         run: |
-          go run github.com/v2fly/geoip@latest -c config.json
+          go run github.com/Loyalsoldier/geoip@latest -c config.json
           
       - name: Generate sha256 checksum for dat files
         run: |

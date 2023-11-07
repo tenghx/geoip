@@ -10,6 +10,7 @@ Custom geoip file for routing purpose in V2Ray.
 ## Credits
 
 - [github.com/v2fly/geoip](https://github.com/v2fly/geoip)
+- [github.com/Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)
 - [github.com/17mon/china_ip_list](https://github.com/17mon/china_ip_list)
 - [github.com/gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip)
 - [en.wikipedia.org/wiki/Reserved_IP_addresses](https://en.wikipedia.org/wiki/Reserved_IP_addresses)
